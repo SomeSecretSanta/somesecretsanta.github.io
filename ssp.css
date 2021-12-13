@@ -1,6 +1,8 @@
 #rewardimg {
 	display:block;
-	width:100%;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
 }
 .grid th, .grid td, .grid th>div {
 	vertical-align : middle;
