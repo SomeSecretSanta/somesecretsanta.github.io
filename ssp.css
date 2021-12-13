@@ -1,0 +1,36 @@
+#rewardimg {
+	display:block;
+	width:100%;
+}
+.grid th, .grid td, .grid th>div {
+	vertical-align : middle;
+	border-color : #cccccc;
+	border-width : 1px;
+	text-align : center;
+}
+.grid tr {
+	height : 70px;
+}
+.grid td.invisbrdr {
+	border-color : white;
+}
+
+.checker {
+	width : 40px;
+	height : 40px;
+	cursor : pointer;
+	font-family : SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-size : 36px;
+	text-align : center;
+	
+}
+.iname {
+	width : 70px;
+}
+.rotate {
+	width:70px;
+}
+textarea {
+	height : 60px;
+	width : 250px;
+}
