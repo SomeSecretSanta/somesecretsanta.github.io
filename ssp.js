@@ -106,12 +106,15 @@ $(document).ready(function() {
 		switch (this.value) {
 			case 'O':
 				this.value = '';
+        $(this).css("color", "rgb(33, 37, 41)");
 				break;
 			case '':
 				this.value = 'X';
+        $(this).css("color", "rgb(187, 45, 59)");
 				break;
 			case 'X':
 				this.value = 'O';
+        $(this).css("color", "rgb(15, 81, 50)");
 				break;
 			default:
 				this.value = '';
