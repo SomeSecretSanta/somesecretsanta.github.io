@@ -79,6 +79,7 @@ $(document).ready(function() {
 		$.each(destinations, function(val, text) {
 			$('#destination_' + idx).append( $('<option></option>').val(val).html(text) )
 		});
+		setTimeout(() => {$('#collapseOne').collapse('toggle')}, 700);
 	});
 
 	$(document).on("click", "#check", function() {
